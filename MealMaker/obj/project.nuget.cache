@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JsYS98P/1BnzWkFeq9tQPQstdjjZaDyXFDR96U0i5gnubZMC/DGFTEHkJBFji7KrsepGwKIvW9Czvfi6Iu+DyQ==",
+  "success": true,
+  "projectFilePath": "/home/dutro/code/MealMaker/MealMaker/MealMaker.csproj",
+  "expectedPackageFiles": [
+    "/home/dutro/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
