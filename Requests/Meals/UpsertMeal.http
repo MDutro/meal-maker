@@ -1,0 +1,20 @@
+@id=24e86e1a-ea22-4550-a958-abfc8581c753
+
+PUT http://localhost:5000/meals/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Scrambled Eggs and Toast 2",
+    "description": "A tried and true classic. Dress it up any way you like.",
+    "startDateTime": "2023-06-14T23:22:00",
+    "endDateTime": "2023-06-15T09:30:00",
+    "savory": [
+        "Eggs",
+        "Olive Oil",
+        "Whole Wheat Bread",
+        "Butter"
+    ],
+    "sweet": [
+        "Raspberry Jam"
+    ]
+}

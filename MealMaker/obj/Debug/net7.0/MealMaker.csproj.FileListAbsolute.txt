@@ -1,5 +1,4 @@
 /home/dutro/code/MealMaker/MealMaker/bin/Debug/net7.0/appsettings.Development.json
-/home/dutro/code/MealMaker/MealMaker/bin/Debug/net7.0/appsettings.json
 /home/dutro/code/MealMaker/MealMaker/bin/Debug/net7.0/MealMaker
 /home/dutro/code/MealMaker/MealMaker/bin/Debug/net7.0/MealMaker.deps.json
 /home/dutro/code/MealMaker/MealMaker/bin/Debug/net7.0/MealMaker.runtimeconfig.json
