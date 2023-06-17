@@ -1,4 +1,0 @@
-@id=24e86e1a-ea22-4550-a958-abfc8581c753
-
-GET http://localhost:5039/meals/{{id}}
-Content-Type: application/json

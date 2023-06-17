@@ -1,0 +1,51 @@
+@id=69264569-0b0f-4049-9bfa-e34d374a1e07
+
+POST http://localhost:5000/meals
+Content-Type: application/json
+
+{
+    "name": "Scrambled Eggs and Toast",
+    "description": "A tried and true classic. Dress it up any way you like.",
+    "startDateTime": "2023-06-14T23:22:00",
+    "endDateTime": "2023-06-15T09:30:00",
+    "savory": [
+        "Eggs",
+        "Olive Oil",
+        "Whole Wheat Bread",
+        "Butter"
+    ],
+    "sweet": [
+        "Raspberry Jam"
+    ]
+}
+
+###
+
+GET http://localhost:5000/meals/{{id}}
+Content-Type: application/json
+
+###
+
+PUT http://localhost:5000/meals/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Scrambled Eggs and Toast 2",
+    "description": "A tried and true classic. Dress it up any way you like.",
+    "startDateTime": "2023-06-14T23:22:00",
+    "endDateTime": "2023-06-15T09:30:00",
+    "savory": [
+        "Eggs",
+        "Olive Oil",
+        "Whole Wheat Bread",
+        "Butter"
+    ],
+    "sweet": [
+        "Raspberry Jam"
+    ]
+}
+
+###
+
+DELETE http://localhost:5000/meals/{{id}}
+Content-Type: application/json
