@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.001.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealMaker.Contracts", "MealMaker.Contracts\MealMaker.Contracts.csproj", "{7C8BB4F4-196C-4BC8-847A-DA4BC91D8D9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealMaker", "MealMaker\MealMaker.csproj", "{A6BAD80D-2FA5-41C8-AD3F-48C4A86B22DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8BB4F4-196C-4BC8-847A-DA4BC91D8D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8BB4F4-196C-4BC8-847A-DA4BC91D8D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8BB4F4-196C-4BC8-847A-DA4BC91D8D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8BB4F4-196C-4BC8-847A-DA4BC91D8D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BAD80D-2FA5-41C8-AD3F-48C4A86B22DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BAD80D-2FA5-41C8-AD3F-48C4A86B22DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BAD80D-2FA5-41C8-AD3F-48C4A86B22DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BAD80D-2FA5-41C8-AD3F-48C4A86B22DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BAD1674-EA19-4477-B7D1-C3C89E5EC5A8}
+	EndGlobalSection
+EndGlobal
