@@ -49,6 +49,7 @@ public class MealService : IMealService
         return Result.Deleted;
     }
 
+    // The functions below are for validation of new meals created/meals updated.
     public ErrorOr<Meal> Create(
         string name,
         string description, 
