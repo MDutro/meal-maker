@@ -18,7 +18,7 @@ public class MealsController : ApiController
     [HttpPost]
     public IActionResult CreateMeal(CreateMealRequest request)
     {
-        ErrorOr<Meal> requestToMealResult = Meal.From(request);
+        ErrorOr<Meal> requestToMealResult = _mealService.From(request);
 
         if (requestToMealResult.IsError)
         {
@@ -49,7 +49,7 @@ public class MealsController : ApiController
     [HttpPut("{id:guid}")]
     public IActionResult UpsertMeal(Guid id, UpsertMealRequest request)
     {
-        ErrorOr<Meal> requesToMealResult = Meal.From(id, request);
+        ErrorOr<Meal> requesToMealResult = _mealService.From(id, request);
 
         if (requesToMealResult.IsError)
         {

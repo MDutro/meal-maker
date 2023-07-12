@@ -8,12 +8,12 @@ public static class Errors
     {
         public static Error InvalidName => Error.Validation(
             code: "Meal.InvalidName",
-            description: $"Meal name must be between {Models.Meal.MinNameLength} and {Models.Meal.MaxNameLength} characters"
+            description: $"Meal name must be between {Services.Meals.MealService.MinNameLength} and {Services.Meals.MealService.MaxNameLength} characters"
         );
 
         public static Error InvalidDescription => Error.Validation(
             code: "Meal.InvalidDescription",
-            description: $"Descprition must be between {Models.Meal.MinDescriptionLength} and {Models.Meal.MaxDescriptionLength} characters"
+            description: $"Descprition must be between {Services.Meals.MealService.MinDescriptionLength} and {Services.Meals.MealService.MaxDescriptionLength} characters"
         );
         
         public static Error NotFound => Error.NotFound(
